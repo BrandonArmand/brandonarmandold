@@ -1,0 +1,154 @@
+body{
+  padding-bottom: 50rem;
+  background-color: white;
+  margin: 0;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+#space{
+  padding-top: 1.5rem;
+}
+
+.description{
+  background-color: orange;
+  width: 100%;
+  height: 500px;
+
+}
+
+.header{
+  top: 0;
+  background-color: white;
+  width:100%;
+  padding-top: 3rem;
+  border-bottom: 1px solid #000000;
+  position: fixed;
+}
+
+.header h1{
+ display: inline;
+ font-size: 2rem;
+ padding-left: 10rem;
+}
+
+.header h2{
+  padding-bottom: .5rem;
+  padding-left: .5rem;
+  display: inline;
+}
+
+.links{
+  display: inline-block;
+  float: right;
+  padding-top: 12px;
+  padding-right: 10rem;
+}
+
+.logo{
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.title{
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  margin-left: 50rem;
+  margin-right: 50rem;
+}
+
+.title h1{
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.posts{
+    height: 500px;
+}
+
+.post{
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  border-bottom-style: inset;
+  width: 40%;
+  margin-left: 27rem;
+  border-collapse: collapse;
+}
+
+.last{
+  border-bottom: 0;
+}
+
+
+.projects{
+ padding-top: 2rem;
+}
+
+.projectOne{
+  background-color: rgb(58,23,63);
+  background-image: url("../images/blocjams.png");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1840px;
+  border-bottom: 1px solid #000000;
+}
+
+.projectOne h1{
+  color: white;
+}
+
+.projects h1{
+  font-size: 7rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    3px 3px 0 #000;
+  padding-top: 10rem;
+  text-align: center;
+  margin: 0;
+}
+
+.projectTwo{
+  background-color: rgb(58,23,63);
+  background-image: url("../images/test.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1840px;
+  border-bottom: 1px solid #000000;
+}
+
+.projectTwo h1{
+  color: white;
+}
+
+.projectThree{
+  background-color: rgb(58,23,63);
+  background-image: url("../images/test2.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1840px;
+  border-bottom: 1px solid #000000;
+}
+
+.projectThree h1{
+  color: white;
+}
+
+.container{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.col-1{
+  width: 100%;
+}
