@@ -1,0 +1,56 @@
+body{
+  padding-bottom: 0;
+}
+
+.description{
+  height: 250px;
+}
+
+.description h1{
+  text-align: center;
+  padding-top: 7rem;
+  font-size: 4rem;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    3px 3px 0 #000;
+}
+
+.description:hover{
+  background-color: darkorange;
+}
+
+.case-study{
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+}
+
+.case-study h1{
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+
+.case-study p{
+  text-indent: 50px;
+}
+
+.project-img{
+  width: 100%;
+  border: solid 1px;
+}
+
+.iphone{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+}
+
+.mobile-image{
+  padding-left: 35rem;
+}

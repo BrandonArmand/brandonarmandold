@@ -4,6 +4,27 @@ body{
   margin: 0;
 }
 
+nav{
+  width: 100%;
+  height: 40px;
+  background-color: lightgrey;
+  border-bottom: solid gray 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color: white;
+    text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      2px 2px 0 #000;
+}
+
 a:hover{
   cursor: pointer;
 }
@@ -15,8 +36,7 @@ a:hover{
 .description{
   background-color: orange;
   width: 100%;
-  height: 500px;
-
+  height: 350px;
 }
 
 .header{
@@ -81,7 +101,6 @@ a:hover{
 .last{
   border-bottom: 0;
 }
-
 
 .projects{
  padding-top: 2rem;
