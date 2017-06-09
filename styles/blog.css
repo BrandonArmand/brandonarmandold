@@ -1,0 +1,47 @@
+.description{
+  height: 250px;
+}
+
+.blog{
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  margin-right: 35rem;
+  background-color: white;
+}
+
+.blog h1{
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.blog h2{
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+
+}
+
+.blog p{
+  text-indent: 50px;
+  padding-top: 1rem;
+  font-family: "Times New Roman";
+}
+
+.blogpost{
+  border: solid 1px;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.padding{
+  padding-top: 5px;
+}
+
+#post1 h1{
+   text-decoration: none;
+}
