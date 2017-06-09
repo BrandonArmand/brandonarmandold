@@ -30,6 +30,7 @@ body{
 .project-img{
   width: 100%;
   border: solid 1px;
+  box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .iphone{
@@ -37,8 +38,10 @@ body{
   margin-left: auto;
   margin-right: auto;
   border: solid 1px;
+  box-shadow: 3px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .mobile-image{
   padding-left: 35rem;
+
 }
