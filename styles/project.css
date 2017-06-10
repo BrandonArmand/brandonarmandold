@@ -6,8 +6,26 @@ body{
   height: 250px;
 }
 
+@-webkit-keyframes descriptionhover {
+  from{background-color: orange;}
+  to{background-color: darkorange;}
+}
+
+@-moz-keyframes descriptionhover {
+  from{background-color: orange;}
+  to{background-color: darkorange;}
+}
+
+@keyframes descriptionhover {
+  from{background-color: orange;}
+  to{background-color: darkorange;}
+}
+
+
 .description:hover{
-  background-color: darkorange;
+  animation-name: descriptionhover;
+  animation-duration: .1s;
+  animation-fill-mode: forwards;
 }
 
 .case-study{
@@ -15,16 +33,19 @@ body{
   margin-top: 5rem;
   margin-left: 35rem;
   margin-right: 35rem;
+  font-family: 'Antic Slab', serif;
 }
 
 .case-study h1{
   text-align: center;
   color: black;
   font-size: 2rem;
+  font-family: 'Antic Slab', serif;
 }
 
 .case-study p{
   text-indent: 50px;
+  font-family: 'Antic Slab', serif;
 }
 
 .project-img{

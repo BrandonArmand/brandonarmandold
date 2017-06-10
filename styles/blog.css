@@ -13,21 +13,23 @@
 .blog h1{
   text-align: center;
   color: black;
-  font-size: 2rem;
-  text-decoration: underline;
+  font-size: 40px;
+  font-family: 'Antic Slab', serif;
+  margin-bottom: 0;
 }
 
 .blog h2{
   text-align: center;
   color: black;
-  font-size: 1.5rem;
-
+  font-size: 20px;
+  font-family: 'Antic Slab', serif;
 }
 
 .blog p{
   text-indent: 50px;
   padding-top: 1rem;
-  font-family: "Times New Roman";
+  font-size: 25px;
+  font-family: "Monsterrat", sans-serif, "Times New Roman";
 }
 
 .blogpost{
@@ -36,10 +38,17 @@
   padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .padding{
-  padding-top: 5px;
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.padding h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
 }
 
 #post1 h1{

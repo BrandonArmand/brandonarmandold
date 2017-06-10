@@ -1,0 +1,19 @@
+.description{
+  height: 303px;
+}
+
+#font h1{
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+#font h2{
+  font-family: 'Antic Slab', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+body{
+  padding-bottom: 23rem;
+}
